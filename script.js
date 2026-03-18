@@ -149,11 +149,11 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "gamers, controller, charger, console, the lads, prince".split(
+    "the gamer, the controller, the charger, the console, the monitor, the prince, ".split(
       ","
     ),
   verbs =
-    "get on, plug in, no scope, clock, speedrun, three-stock".split(
+    "get on, plug in, no scopes, clocks, speedruns, three-stocks".split(
       ","
     ),
   objects =
