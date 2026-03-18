@@ -12,14 +12,11 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "The livestream will begin shortly.",
+  "20% battery life.",
+  "Connection to MLG servers successful.",
+  "Happy feet, wombo combo.",
+  "Raid battle commening."
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -41,16 +38,14 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "spellcaster") {
+    addText("a natural-born user of magic who commands the elements");
+  } else if (x === "barbarian") {
+    addText("a warrior of unparalleled resolve and physical strength");
+  } else if (x === "rogue") {
+    addText("a calculated fighter who uses poison and traps to outplay their enemies");
+  } else if (x === "memelord") {
+    addText("a master of the internet");
   }
 }
 //end of dropdown function
@@ -62,11 +57,14 @@ const fiveSyllables = [
   "getting drunk in my basement off tiny wines",
   "hardcore mode protecting the dark soul stone",
   "probably the most intense thing ever",
+  "I dunno"
 ];
 const sevenSyllables = [
   "leroy jenkins",
   "mlg",
   "wow",
+  "oh baby a triple",
+  "mom get the camera"
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
