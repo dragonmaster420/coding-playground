@@ -60,11 +60,10 @@ const fiveSyllables = [
   "I dunno"
 ];
 const sevenSyllables = [
-  "leroy jenkins",
-  "mlg",
-  "wow",
-  "oh baby a triple",
-  "mom get the camera"
+  "a true gamer",
+  "fedora wearer",
+  "diablo shirt",
+  "clip that",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -96,26 +95,11 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
-
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
-
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
-
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
-
-  "earliest memories as a child",
-  "emotional manipulation signs",
-
-  "fridge magnets",
+"best builds diablo",
+"top ten commentator goofs smash",
+"mlg guide to the internet",
+"best games to play online with friends",
+"skyrim walkthrough"
 ];
 //search function (do not edit)
 function changeText(e) {
