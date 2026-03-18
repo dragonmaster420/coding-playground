@@ -149,15 +149,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "gamers, controller, charger, console, the lads, prince".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "get on, plug in, no scope, clock, speedrun, three-stock".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the black soul stone, the Subspace Emmissary, the Dragon's Lair, Helgen, the victory screen, E3".split(
       ","
     );
 // set up the counter
