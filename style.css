@@ -56,13 +56,13 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/lightning.jpg");
+  background-image: url("./img/e3.webp");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
-  color: white
+  color: rgb(212, 255, 0)
 }
 
 /* Style the card for phone error alerts (do not edit)*/
